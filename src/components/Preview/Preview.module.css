@@ -1,0 +1,17 @@
+.preview {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 1rem;
+}
+
+.header {
+    flex: 0;
+}
+.content {
+    flex: 1;
+    overflow: auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}

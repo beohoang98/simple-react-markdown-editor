@@ -1,0 +1,16 @@
+{
+    "root": true,
+    "extends": [
+        "react-app",
+        "react-app/jest",
+        "plugin:import/recommended",
+        "plugin:import/typescript"
+    ],
+    "plugins": ["prettier", "import"],
+    "rules": {
+        "prettier/prettier": "warn"
+    },
+    "settings": {
+        "import/ignore:": ["\\.(css|scss|less|sass)$"]
+    }
+}

@@ -1,0 +1,13 @@
+.app {
+    display: flex;
+    height: 100vh;
+    overflow: auto;
+    background: #dfdfdf;
+}
+.split {
+    width: 20px;
+}
+.editor, .preview {
+    flex: 1 0 0;
+    overflow: auto;
+}
